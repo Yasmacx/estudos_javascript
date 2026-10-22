@@ -1,9 +1,10 @@
-alert('Bem vindo ao nosso site');
+alert('Olá Bem vindo!');
 
-let nome = lua;
-let idade = 25;
-let numerodevendas = 50;
-let saldodisponivel = 1000;
+let semana = prompt('Me diz que dia da semana voce está: ');
+console.log('Dia da semana:', semana);
 
-let mensagemerro = erro;
-alert('Erro');
+if (semana == 'sabado' || 'domingo'){
+    alert('Bom final de semana!');
+} else {
+    alert('Boa semana!');
+} 
